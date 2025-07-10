@@ -1,1 +1,36 @@
-slaksjdlkafsd
+Git: Configurations
+     git config --global user.name "username"
+     git config --global user.email "email"
+     git config --global color.ui true
+     git config --list
+
+Git: starting a repository
+     git init
+     git status
+
+Git: stagging files
+     git add file-name
+     git add file-name1 file-name2 file-name3...
+     git add . (add all files changes current open project directory)
+     git add --all (add all directory files changes)
+     git add -A
+     git rm --cached file-name (remove from staging)
+     git reset file-name
+
+Git: committing to a repository
+     git commit -m "Add three files"
+     git reset --soft HEAD^
+     git commit --amend -m "new message"
+
+Git: pulling and pushing from and to repositories
+     git remote add origin <link>
+     git push -u origin master
+     git clone <clone>
+     git pull
+
+Git: branching
+     git branch
+     git branch <branch-name>
+     git checkout <branch-name>
+     git merge <branch-name>
+     git checkout -b <branch-name>
