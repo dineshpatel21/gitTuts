@@ -21,6 +21,7 @@ Git: committing to a repository
      git commit -m "Add three files"
      git reset --soft HEAD^
      git commit --amend -m "new message"
+     git log
 
 Git: pulling and pushing from and to repositories
      git remote add origin <link>
